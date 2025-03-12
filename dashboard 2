@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Surprise Granite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <nav>
+      <a href="dashboard.html">Home</a>
+      <a href="leads.html">Leads</a>
+      <a href="inventory.html">Inventory</a>
+      <a href="orders.html">Orders</a>
+      <a href="logout.html">Logout</a>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome">
+      <h2>Welcome, <span id="userName">User</span>!</h2>
+      <p>Your subscription plan: <span id="subscriptionPlan">Free Trial</span></p>
+    </section>
+    <section id="content">
+      <h3>Dashboard Content</h3>
+      <p>Here you'll see your leads, product ordering information, and AI-driven estimates.</p>
+      <!-- Additional dynamic content can be loaded here -->
+    </section>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>
